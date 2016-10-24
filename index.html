@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="sv">
+	<head>
+		<title>Kyrksök</title>
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="mobile-web-app-capable" content="yes" />
+
+		<link rel="stylesheet" href="css/kyrksok.min.css">
+	</head>
+	<body>
+		<main class="fill center-content">
+
+			<img src="logo.svg" class="logo" aria="hidden">
+			<h1 class="sr-only">Kyrksök</h1>
+
+			<div class="search-bar">
+				<input type="text" id="search-box">
+				<input type="button" value="Sök" id="search-btn"><br><br>
+				<a href="#" class="btn">Karta</a>
+			</div>
+
+			<nav class="search-results hidden fill" id="results"></nav>
+		</main>
+
+		<script src="js/kyrksok.min.js"></script>
+	</body>
+</html>

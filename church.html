@@ -19,7 +19,9 @@
 		<meta name="msapplication-config" content="icons/browserconfig.xml" />
 		<meta name="theme-color" content="#ffffff" />
 
-		<link rel="stylesheet" href="css/kyrksok.min.css">
+		<!--build:css css/kyrksok.min.css  -->
+		<link rel="stylesheet" href="css/app.css" type="text/css" />
+		<!-- endbuild -->
 	</head>
 	<body>
 		<main>
@@ -45,8 +47,8 @@
 
 					<h2>Läs mer</h2>
 					<a id="church-kringla" href="#" class="btn">I Kringla</a>
-					<a id="church-commons" href="#" class="btn">Commons</a>
-					<a id="church-bbr-link" href="#" class="btn">Bebyggelseregistret</a>
+					<a id="church-commons" href="#" class="btn">Bilder i Wikimedia Commons</a>
+					<a id="church-bbr-link" href="#" class="btn">I Bebyggelseregistret</a>
 				</div>
 			</div>
 
@@ -56,6 +58,9 @@
 			</div>
 		</main>
 		<a class="footer" href="about.html">Om Kyrksök</a>
-		<script src="js/kyrksok.min.js"></script>
+		<!--build:js js/kyrksok.min.js  -->
+		<script src="js/jquery-3.1.1.js"></script>
+		<script src="js/application.js"></script>
+		<!-- endbuild -->
 	</body>
 </html>

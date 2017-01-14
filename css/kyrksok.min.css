@@ -116,6 +116,8 @@ header img {
   height: 100%;
   width: auto;
   max-height: 350px;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 header a {
@@ -195,6 +197,10 @@ input {
   padding-right: 5px;
 }
 
+.about p {
+  width: inherit;
+}
+
 .footer {
   display: block;
   text-align: center;
@@ -205,6 +211,11 @@ input {
   height: 26px;
   line-height: 26px;
   text-decoration: none;
+}
+
+.church {
+  width: inherit;
+  margin: auto;
 }
 
 @media (min-width: 600px) {

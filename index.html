@@ -28,13 +28,16 @@
 			<h1 class="sr-only">Kyrksök</h1>
 
 			<div class="search-bar">
-				<input type="text" id="search-box">
+				<input type="text" id="search-box" autofocus>
 				<input type="button" value="Sök" id="search-btn"><br><br>
 				<a href="map.html" class="btn" style="max-width: 195px;">Karta <i class="fa fa-map-o" aria-hidden="true"></i></a>
 			</div>
 			<a class="footer" href="about.html" style="bottom: 0; position: absolute; left: 0; width: 100%;">Om Kyrksök</a>
 
 			<nav class="search-results hidden fill" id="results"></nav>
+			<div class="hidden fill center-content" aria-hidden id="loading-screen">
+				<div class="loading"></div>
+			</div>
 		</main>
 
 		<script src="js/kyrksok.min.js"></script>
